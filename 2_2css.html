@@ -14,7 +14,7 @@
         <button class="buttonstyle">Выбрать тур</button>
     </div>
 
-    <div>    
+    <div  id="about">    
         <h1 class="h1st">О нашем агенстве</h1>
         <div class="secondsl"> 
             <div class="secondsldiv">    
@@ -27,7 +27,7 @@
         </div>
     </div>
    
-    <div>
+     <div id="destinations">
         <h1 class="h1st">Наши лучшие предложения</h1>
         <div class="thirdsl">
             <div class="text-wrapper">  
@@ -41,14 +41,15 @@
 
     <div class="fourthsl">
         <h2>TravelWorld</h2>
-        <button class="buttonstyle2">О нас</button>
-        <button class="buttonstyle2">направление</button>
-        <button class="buttonstyle2">Туры</button>
-        <button class="buttonstyle2">Отзывы</button>
-        <button class="buttonstyle2">Контакты</button>
+        <div style="display: flex; gap: 25px;">
+            <a href="#about" class="nav-link">О нас</a>
+            <a href="#destinations" class="nav-link">направление</a>
+            <a href="#tours-section" class="nav-link">Туры</a>
+            <a href="#reviews-section" class="nav-link">Отзывы</a>
+            <a href="#contacts-section" class="nav-link">Контакты</a>
+        </div>
     </div>
-
-    <h1 class="h1st">Популярные направления</h1>
+    <div id="tours-section"> <h1 class="h1st">Популярные направления</h1>
     <div class="sixsl">    
         <div class="panelsl">
             <img src="https://ic.pics.livejournal.com/miss_juliettef/84615001/254403/254403_original.png" style="border-radius: 10px; height: 50%; width: 400px;">
@@ -69,6 +70,8 @@
             <H>от 1200$</H>
         </div>
     </div>
+</div>
+   
        
     <h1 class="h1st">Наши туры</h1>
     <div class="sixsl">
@@ -88,8 +91,7 @@
             <div class="tours"><H>от 1200$</H> <button class="buttonstyle">забронировать</button></div>
         </div>
     </div>
-  
-    <h1 class="h1st">Отзывы наших клиентов</h1>
+  <div id="reviews-section">    <h1 class="h1st">Отзывы наших клиентов</h1>
     <div class="sixsl">    
         <div class="panelsl">
             <div class="toursUP">
@@ -122,6 +124,8 @@
             <p class="panelsl_p">крупнейший город США, расположенный на берегу Атлантического океана в устье реки Гудзон. Это важнейший мировой финансовый, культурный и политический центр с населением более 8,4 млн человек (почти 20 млн в агломерации)</p>
         </div>
     </div>
+</div>
+
     
     <h1 class="h1st">Наши моменты</h1>
     <div class="sixslforimg">
@@ -173,8 +177,7 @@
 
         </div>
     </div>
-
-    <h1 class="h1st">Наши контакты</h1>
+<div id="contacts-section">   <h1 class="h1st">Наши контакты</h1>
     <div class="sixsl">
         
         <div>
@@ -199,6 +202,8 @@
         <div><img src="/world.svg" alt="" style="width: 800px; height: 400px;"></div>
     
     </div>
+</div>
+ 
   <div style="text-align: center; background-color: rgb(35, 35, 35); padding: 40px 20px 30px; margin-top: auto;">
     <h1 style="color: rgb(192, 84, 84); font-size: 28px; font-weight: 600; margin-bottom: 20px; letter-spacing: -0.5px;">World</h1>
     <p style="color: rgba(255, 255, 255, 0.7); font-size: 14px; margin: 0;">© 2025 TravelWorld. Все права защищены.</p>
